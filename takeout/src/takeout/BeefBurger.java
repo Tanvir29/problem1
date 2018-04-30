@@ -7,7 +7,7 @@ public class BeefBurger implements Burger {
     private final Burgertype burger = new Burgertype();
     @Override
     public void addPatty() {
-        burger.Add("That is patty for beefburger");
+        burger.Add("This is patty for beefburger");
     }
 
     @Override
